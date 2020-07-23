@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl"?>
+<!DOCTYPE TEI SYSTEM "../hbk/tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="hu">
+		<fileDesc>
+			<titleStmt>
+				<title>Halotti Beszéd és Könyörgés</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>Kritikai kiadás 0.1</edition>
+				<respStmt>
+					<resp>szerkesztette: </resp>
+					<resp xml:lang="en">editor: </resp>
+					<persName>
+						<surname>Horváth</surname>
+						<forename>Iván</forename>
+					</persName>
+					<persName>
+						<surname>Kalcsó</surname>
+						<forename>Gyula</forename>
+					</persName>
+					<persName>
+						<surname>Maróthy</surname>
+						<forename>Szilvia</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp>XML szerkesztés: </resp>
+					<resp xml:lang="en">XML-editor: </resp>
+					<persName>
+						<surname>Maróthy</surname>
+						<forename>Szilvia</forename>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher><!-- hogy mi a kiadó, ráérünk megbeszélni, most egy illusztráció erre :) -->
+					<orgName ref="">Eötvös Loránd Tudományegyetem</orgName>
+					<orgName ref="">Eszterházy Károly Egyetem</orgName>
+				</publisher>
+				<pubPlace ref="http://www.geonames.org/3054643">Budapest</pubPlace>
+				<pubPlace ref="">Eger</pubPlace>
+				<date when-iso="2018">2018</date>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+						<p>A mű a Creative Commons Nevezd meg! - Ne add el! - Így add tovább! 4.0 Nemzetközi Licenc alatt van.</p>
+						<p xml:lang="en">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</p>
+						<ref style="border-width:0" target="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country ref="http://www.geonames.org/719819/">Magyarország</country>
+						<country ref="http://www.geonames.org/719819/" xml:lang="en">Hungary</country>
+						<settlement ref="">Budapest</settlement>
+						<institution ref="">Országos Széchényi Könyvtár</institution>
+						<idno>MNy 1</idno>
+						<msName>Pray-kódex</msName>
+						<msName xml:lang="en">Codex Pray</msName>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<locus>f. 136r</locus>
+							<title type="desc">Halotti Beszéd és Könyörgés</title>
+							<title type="short">HBK</title>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="m">
+							<supportDesc material="perg">
+								<support>
+									<p>Pergamen.</p>
+								</support>
+								<extent>XXVIII+144 levél</extent>
+							</supportDesc>
+							<layoutDesc>
+								<layout>
+									<p></p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<scriptDesc>
+							<p>
+								<quote source="nyelvemlekek">12. századi minuscula (könyvírás), ívfüzetenként papírba csomagolva – 19. századi papírkötése leválasztva –</quote>
+							</p>
+						</scriptDesc>
+					</physDesc>
+					<history>
+						<origin><p>
+							<quote source="nyelvemlekek">A kódex <origDate>1192–1195</origDate> között másolt része egy felvidéki bencés kolostorban, talán <origPlace cert="low">Boldvá</origPlace>n vagy <origPlace cert="low">Jánosi</origPlace>ban jött létre.</quote></p>
+						</origin>
+						<provenance>
+							<p><quote source="nyelvemlekek">Valószínűleg több bejegyzés került a kötetbe annak Pozsonyig tartó vándorútja során, a 12. század végén és a 13. század első évtizedeiben. A kézirat 1241-től Pozsonyban volt, ahol egy a 12. század közepén keletkezett ívfüzetet kötöttek az elejére (f. I–IV.).</quote></p>
+						</provenance>
+					</history>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<source><!--Honnan vannak az msDesc infói? Ez amúgy <bibl>, vagy még inkább majd a <listBibl> egyik elemére való hivatkozással valósul meg.--></source>
+								<change><!--A fájlon végrehajtott változtatások infói. Ebből persze lehet több--></change>
+							</recordHist>
+							</adminInfo>
+								<listBibl>
+							    <bibl xml:id="nyelvemlekek">Pray-kódex – Halotti beszéd és könyörgés <ref target="http://nyelvemlekek.oszk.hu/adatlap-dupla/praykodex_%E2%80%93_halotti_beszed_es_koenyoerges"/>
+                  </bibl>
+						    </listBibl>
+					  </additional>
+				  </msDesc>
+			  </sourceDesc>
+      </fileDesc>
+		</teiHeader>
+		<text>
+		<body>
+		<p><iniciálé>L</iniciálé><áthúzott>atıatuc</áthúzott> feleym ʒumtuchel <rubrum>SeRmo ſuꝑ ſepulchrum.</rubrum>
+			<lb n="2"/>mıc vogmuc. ýſa pur eſ chomuv uogmuc. <italic>M</italic>enýı mıloſtben
+			<lb n="3"/>terumteve eleve mív ıſemucut adamut. eſ odutta vola nekı
+			<lb n="4"/>paradıſumut haʒóá. <italic>E</italic>ſ mend paradıſumben uolov gımılcíctul
+			<lb n="5"/>munda nekí elnıe. <italic>H</italic>eon tılutoa vvt ıg fa gımılcetvl. <italic>G</italic>e
+			<lb n="6"/>mundoa nekí meret nū eneẏc. ẏſa kí nopun emdul oʒgımılſ
+			<lb n="7"/>tvvl. halalnec halaláál holʒ. Hadlaua choltat terumteve ıſten
+			<lb n="8"/>tvl. ge feledeve. Engede urdung ıntetvınec. eſ evec oʒ tıluvt
+			<lb n="9"/>gımılſtvvl. eſ oʒ gımılſben halalut evec. Eſ oʒ gımılſnec vvl
+			<lb n="10"/>keſeruv uola vıʒe. hug turchucat mıge ʒocoʒtıa vola.
+			<lb n="11"/>Num heon muga nec. ge mend vv foıanec halalut evec.
+			<lb n="12"/>Horoguvec ıſten. eſ veteve vvt eʒ muncaſ vılag bele. eſ levn
+			<lb n="13"/>halalnec eſ puculnec feʒe. eſ mend vv nemenec. Kıc oʒvc.
+			<lb n="14"/>mıv vogmuc. Hug eſ tıv latıatuc ſʒumtuchel. ıſa eſ num
+			<lb n="15"/>ıgg ember mulchotıa eʒ vermut. yſa mend oʒchuʒ ıarov
+			<lb n="16"/>vogmuc. Wímagguc uromc ıſten kegılmet eʒ lelıc ert. hug
+			<lb n="17"/>ıorgoſſun vv nekı. eſ kegıggen. eſ bulſcaſſa mend vv bunet.
+			<lb n="18"/>Eſ vımagguc ſʒen achſcın marıat. e!eſ bovdug mıchael archangelt.
+			<lb n="19"/>eſ mend angelcut. hug uımaggonoc erette. Eſ uımagguc
+			<lb n="20"/>ſʒent peter urot. kınec odut hotolm ovdonıa. eſ ketnıe.
+			<lb n="21"/>hug ovga mend vv bunet. Eſ vımagguc mend ſʒentucut.
+			<lb n="22"/>hug legenec nekí ſeged uromc ſcıne eleut. hug ıſten ív uı-
+			<lb n="23"/>madſagucmıa bulſaſſa vv bunet. Eſ ʒoboducha vvt urdung
+			<lb n="24"/>ıldetuıtvl. eſ pucul kınʒotvıatvvl. eſ veʒeſſe vvt paradıſū
+			<lb n="25"/>nugulmabelı. eſ oggun nekı munhı uruʒagbele utot. eſ
+			<lb n="26"/>mend ıovben reʒet. Eſ keaſſatuc uromchuʒ charmul. Kırꝉ.
+			<lb n="27"/>S<áthúzott>cerelmeſ</áthúzott> bratým uımagg<alápöttyözött>uc<alápöttyözött><fölötte>omuc</fölötte> eʒ ſcegın ember lılkı ert.
+			<lb n="28"/>kıt vr eʒ nopun eʒ homuſ vılag tımnucebelevl mente.
+			<lb n="29"/>kınec eʒ nopun teſtet tumetívc. hug ur uvt kegılmehel
+			<lb n="30"/>abraam.ẏsaac. ıacob. kebeleben helheʒıe. hug bırſagnop
+			<lb n="31"/>ıvtua mend vv ſʒentíí eſ unutteı cuʒıcun ıov
+			<lb n="32"/>felevl ıochtotnıa ıleʒıe vvt. Eſ tıv bennetuc. clamate III.Ꝁ.
+		</p>
+		</body>
+		</text>
+	</TEI>
