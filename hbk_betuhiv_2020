@@ -29,6 +29,10 @@
 					<resp>XML szerkesztés: </resp>
 					<resp xml:lang="en">XML-editor: </resp>
 					<persName>
+						<persName>
+							<surname>Kalcsó</surname>
+							<forename>Gyula</forename>
+						</persName>
 						<surname>Maróthy</surname>
 						<forename>Szilvia</forename>
 					</persName>
@@ -41,7 +45,7 @@
 				</publisher>
 				<pubPlace ref="http://www.geonames.org/3054643">Budapest</pubPlace>
 				<pubPlace ref="">Eger</pubPlace>
-				<date when-iso="2020">2020</date>
+				<date when-iso="2018">2018</date>
 				<availability>
 					<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
 						<p>A mű a Creative Commons Nevezd meg! - Ne add el! - Így add tovább! 4.0 Nemzetközi Licenc alatt van.</p>
@@ -113,40 +117,47 @@
       </fileDesc>
 		</teiHeader>
 		<text>
-		<body>
-		<p>Latiatuc feleym ʒumtuchel <title>SeRmo ſuꝑ ſepulchrum.</title>
-		<lb n="2"/>mic vogmuc. ýſa pur eſ chomuv uogmuc. Menýi miloſtben
-		<lb n="3"/>terumteve eleve mív iſemucut adamut. eſ odutta vola neki
-		<lb n="4"/>paradiſumut haʒóá. Eſ mend paradiſumben uolov gimilcíctul
-		<lb n="5"/>munda nekí elnie. Heon tilutoa wt ig fa gimilcetvl. Ge
-		<lb n="6"/>mundoa nekí meret nū eneẏc. ẏſa kí nopun emdul oʒ gimilſ
-		<lb n="7"/>twl. halalnec halaláál holʒ. Hadlaua choltat terumteve iſten
-		<lb n="8"/>tvl. ge feledeve. Engede urdung intetvinec. eſ evec oʒ tiluvt
-		<lb n="9"/>gimilſtwl. eſ oʒ gimilſben halalut evec. Eſ oʒ gimilſnec wl
-		<lb n="10"/>keſeruv uola viʒe. hug turchucat mige ʒocoʒtia vola.
-		<lb n="11"/>Num heon muga nec. ge mend w foianec halalut evec.
-		<lb n="12"/>Horoguvec iſten. eſ veteve wt eʒ muncaſ vilagbele. eſ levn
-		<lb n="13"/>halalnec eſ puculnec feʒe. eſ mend w nemenec. Kic oʒvc.
-		<lb n="14"/>miv vogmuc. Hug eſ tiv latiatuc ſʒumtuchel. iſa eſ num
-		<lb n="15"/>igg ember mulchotia eʒ vermut. yſa mend oʒchuʒ iarov
-		<lb n="16"/>vogmuc. Wimagguc uromc iſten kegilmet eʒ lelic ert. hug
-		<lb n="17"/>iorgoſſun w neki. eſ kegiggen. eſ bulſcaſſa mend w bunet.
-		<lb n="18"/>Eſ vimagguc ſʒen achſcin mariat. eſ bovdug michael archangelt.
-		<lb n="19"/>eſ mend angelcut. hug uimaggonoc erette. Eſ uimagguc
-		<lb n="20"/>ſʒent peter urot. kinec odut hotolm ovdonia. eſ ketnie.
-		<lb n="21"/>hug ovga mend w bunet. Eſ vimagguc mend ſʒentucut.
-		<lb n="22"/>hug legenec nekí ſeged uromc ſcine eleut. hug iſten ív ui-
-		<lb n="23"/>madſagucmia bulſaſſa w bunet. Eſ ʒoboducha wt urdung
-		<lb n="24"/>ildetuitvl. eſ pucul kinzotviatwl. eſ veʒeſſe wt paradiſū
-		<lb n="25"/>nugulmabeli. eſ oggun neki munhi uruʒagbele utot. eſ
-		<lb n="26"/>mend iovben reʒet. Eſ keaſſatuc uromchuʒ charmul. Kirł.
-		<lb n="27"/>Scerelmeſ bratým uimagguc [javítás fölötte: omuc] eʒ ſcegin ember lilki ert.
-		<lb n="28"/>kit vr eʒ nopun eʒ homuſ vilag timnucebelevl mente.
-		<lb n="29"/>kinec eʒ nopun teſtet tumetívc. hug ur uvt kegilmehel
-		<lb n="30"/>abraam. ẏſaac. iacob. kebeleben helheʒie. hug birſagnop
-		<lb n="31"/>iv́tua mend w ſʒentíí eſ unuttei cuzicun iov
-		<lb n="32"/>felevl iochtotnia ileʒie wt. Eſ tiv bennetuc. Clamate III. K̄.
-		</p>
-		</body>
+			<body xml:lang="hu">
+				<div xml:id="beszéd">
+					<p>
+						<hi rend="2 capital rubricated" place="left margin">L</hi><hi rend="strikethrough">atıatuc</hi> feleym ʒumtuchel <title xml:lang="lat" rend="rubricated"><hi rend="capital">S</hi>e<hi rend="capital">R</hi>mo ſu<choice><abbr>ꝑ</abbr><expan>per</expan></choice> ſepulchrum.</title>
+						<lb n="2"/>mıc vogmuc. ýſa pur eſ chomuv uogmuc. <hi rend="capital rubricated">M</hi>enýı mıloſtben
+						<lb n="3"/>terumteve eleve mív ıſemucut adamut. eſ odutta vola nekı
+						<lb n="4"/>paradıſumut haʒóá. <hi rend="capital rubricated">E</hi>ſ mend paradıſumben uolov gımılcíctul
+						<lb n="5"/>munda nekí elnıe. <hi rend="capital rubricated">H</hi>eon tılutoa vvt ıg fa gımılcetvl. <hi rend="capital rubricated">G</hi>e
+						<lb n="6"/>mundoa nekí meret nū eneẏc. ẏſa kí nopun emdul oʒgımılſ
+						<lb n="7"/>tvvl. halalnec halaláál holʒ. <hi rend="capital rubricated">H</hi>adlaua choltat terumteve ıſten
+						<lb n="8"/>tvl. ge feledeve. <hi rend="capital rubricated">E</hi>ngede urdung ıntetvınec. eſ evec oʒ tıluvt
+						<lb n="9"/>gımılſtvvl. eſ oʒ gımılſben halalut evec. <hi rend="capital rubricated">E</hi>ſ oʒ gımılſnec vvl
+						<lb n="10"/>keſeruv uola vıʒe. hug turchucat mıge ʒocoʒtıa vola.
+						<lb n="11"/><hi rend="capital rubricated" place="left margin">N</hi>um heon muga nec. ge mend vv foıanec halalut evec.
+						<lb n="12"/><hi rend="capital rubricated" place="left margin">H</hi>oroguvec ıſten. eſ veteve vvt eʒ muncaſ vılag bele. eſ levn
+						<lb n="13"/>halalnec eſ puculnec feʒe. eſ mend vv nemenec. <hi rend="capital rubricated">K</hi>ıc oʒvc.
+						<lb n="14"/>mıv vogmuc. <hi rend="capital rubricated">H</hi>ug eſ tıv latıatuc ſʒumtuchel. ıſa eſ num
+						<lb n="15"/>ıgg ember mulchotıa eʒ vermut. yſa mend oʒchuʒ ıarov
+						<lb n="16"/>vogmuc. <hi rend="capital rubricated">W</hi>ímagguc uromc ıſten kegılmet eʒ lelıc ert. hug
+						<lb n="17"/>ıorgoſſun vv nekı. eſ kegıggen. eſ bulſcaſſa mend vv bunet.
+						<lb n="18"/><hi rend="capital rubricated" place="left margin">E</hi>ſ vımagguc ſʒen achſcın marıat. e!eſ bovdug mıchael archangelt.
+						<lb n="19"/>eſ mend angelcut. hug uımaggonoc erette. <hi rend="capital rubricated">E</hi>ſ uımagguc
+						<lb n="20"/>ſʒent peter urot. kınec odut hotolm ovdonıa. eſ ketnıe.
+						<lb n="21"/>hug ovga mend vv bunet. <hi rend="capital rubricated">E</hi>ſ vımagguc mend ſʒentucut.
+						<lb n="22"/>hug legenec nekí ſeged uromc ſcıne eleut. hug ıſten ív uı-
+						<lb n="23"/>madſagucmıa bulſaſſa vv bunet. <hi rend="capital rubricated">E</hi>ſ ʒoboducha vvt urdung
+						<lb n="24"/>ıldetuıtvl. eſ pucul kınʒotvıatvvl. eſ veʒeſſe vvt paradıſū
+						<lb n="25"/>nugulmabelı. eſ oggun nekı munhı uruʒagbele utot. eſ
+						<lb n="26"/>mend ıovben reʒet. <hi rend="capital rubricated">E</hi>ſ keaſſatuc uromchuʒ charmul. <abbr><hi rend="capital rubricated">K</hi>ırꝉ</abbr>.
+					</p>
+				</div>
+				<div xml:id="könyörgés">
+					<p>
+						<lb n="27"/><hi rend="2 capital rubricated">S</hi><hi rend="strikethrough">cerelmeſ</hi> bratým uımagg<del rend="underdotted">uc</del><add place="above">omuc</add> eʒ ſcegın ember lılkı ert.
+						<lb n="28"/>kıt vr eʒ nopun eʒ homuſ vılag tımnucebelevl mente.
+						<lb n="29"/>kınec eʒ nopun teſtet tumetívc. hug ur uvt kegılmehel
+						<lb n="30"/>abraam.ẏsaac. ıacob. kebeleben helheʒıe. hug bırſagnop
+						<lb n="31"/>ıvtua mend vv ſʒentíí eſ unutteı cuʒıcun ıov
+						<lb n="32"/>felevl ıochtotnıa ıleʒıe vvt. <hi rend="capital rubricated">E</hi>ſ tıv bennetuc. <span xml:lang="lat">clamate III.</span> <abbr><hi rend="capital rubricated">Ꝁ</hi></abbr>.
+					</p>
+				</div>
+			</body>
 		</text>
 	</TEI>
