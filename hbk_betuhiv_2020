@@ -10,9 +10,9 @@
 			<editionStmt>
 				<edition>Tudományos elektronikus kiadás 0.1</edition>
 				<respStmt>
-					<resp>szerkesztette: </resp>
-					<resp xml:lang="en">editor: </resp>
-					<persName>
+					<resp>szerkesztette:</resp>
+					<resp xml:lang="en">editor:</resp>
+					<persName ref="http://abcd.hu/szemelyi-nevter/?id=297382&date=2020-08-12">
 						<surname>Horváth</surname>
 						<forename>Iván</forename>
 					</persName>
@@ -26,13 +26,13 @@
 					</persName>
 				</respStmt>
 				<respStmt>
-					<resp>XML szerkesztés: </resp>
-					<resp xml:lang="en">XML-editor: </resp>
+					<resp>XML-szerkesztés:</resp>
+					<resp xml:lang="en">XML editor:</resp>
 					<persName>
-						<persName>
 							<surname>Kalcsó</surname>
 							<forename>Gyula</forename>
-						</persName>
+					</persName>
+					<persName>
 						<surname>Maróthy</surname>
 						<forename>Szilvia</forename>
 					</persName>
@@ -40,11 +40,12 @@
 			</editionStmt>
 			<publicationStmt>
 				<publisher><!-- hogy mi a kiadó, ráérünk megbeszélni, most egy illusztráció erre :) -->
-					<orgName ref="">Eötvös Loránd Tudományegyetem</orgName>
-					<orgName ref="">Eszterházy Károly Egyetem</orgName>
+					<orgName ref="http://abcd.hu/testuleti-nevter/?id=249720&date=2020-08-12">Eötvös Loránd Tudományegyetem</orgName>
+					<orgName ref="http://abcd.hu/testuleti-nevter/?id=209121&date=2020-08-12">Petőfi Irodalmi Múzeum</orgName>
+					<orgName ref="http://abcd.hu/testuleti-nevter/?id=230463&date=2020-08-12">Eszterházy Károly Egyetem</orgName>
 				</publisher>
-				<pubPlace ref="http://www.geonames.org/3054643">Budapest</pubPlace>
-				<pubPlace ref="">Eger</pubPlace>
+				<pubPlace ref="http://abcd.hu/foldrajzi-nevter/?id=110155&date=2020-08-12">Budapest</pubPlace>
+				<pubPlace ref="http://abcd.hu/foldrajzi-nevter/?id=187755&date=2020-08-12">Eger</pubPlace>
 				<date when-iso="2018">2018</date>
 				<availability>
 					<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
@@ -57,10 +58,10 @@
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
-						<country ref="http://www.geonames.org/719819/">Magyarország</country>
-						<country ref="http://www.geonames.org/719819/" xml:lang="en">Hungary</country>
-						<settlement ref="">Budapest</settlement>
-						<institution ref="">Országos Széchényi Könyvtár</institution>
+						<country ref="http://abcd.hu/foldrajzi-nevter/?id=135399&date=2020-08-12">Magyarország</country>
+						<country ref="http://abcd.hu/foldrajzi-nevter/?id=135399&date=2020-08-12" xml:lang="en">Hungary</country>
+						<settlement ref="http://abcd.hu/foldrajzi-nevter/?id=110155&date=2020-08-12">Budapest</settlement>
+						<institution ref="http://abcd.hu/testuleti-nevter/?id=208933&date=2020-08-12">Országos Széchényi Könyvtár</institution>
 						<idno>MNy 1</idno>
 						<msName>Pray-kódex</msName>
 						<msName xml:lang="en">Codex Pray</msName>
@@ -69,7 +70,8 @@
 						<msItem>
 							<locus>f. 136r</locus>
 							<title type="desc">Halotti Beszéd és Könyörgés</title>
-							<title type="short">HBK</title>
+							<title type="desc" xml:lang="en">Funeral Oration and Prayer</title>
+							<title type="short">HBK.</title>
 						</msItem>
 					</msContents>
 					<physDesc>
@@ -108,19 +110,26 @@
 							</recordHist>
 							</adminInfo>
 								<listBibl>
-							    <bibl xml:id="nyelvemlekek">Pray-kódex – Halotti beszéd és könyörgés <ref target="http://nyelvemlekek.oszk.hu/adatlap-dupla/praykodex_%E2%80%93_halotti_beszed_es_koenyoerges"/>
+							    <bibl xml:id="nyelvemlekek">Pray-kódex – Halotti beszéd és könyörgés<ref target="http://nyelvemlekek.oszk.hu/adatlap-dupla/praykodex_%E2%80%93_halotti_beszed_es_koenyoerges"/>
                   </bibl>
 						    </listBibl>
 					  </additional>
 				  </msDesc>
 			  </sourceDesc>
       </fileDesc>
+			<encodingDesc>
+				<variantEncoding method="parallel-segmentation" location="internal"/>
+			</encodingDesc>
 		</teiHeader>
 		<text>
 			<body xml:lang="hu">
 				<div xml:id="beszéd">
 					<p>
-						<hi rend="2 capital rubricated" place="left margin">L</hi><hi rend="strikethrough">atıatuc</hi> feleym ʒumtuchel <title xml:lang="lat" rend="rubricated"><hi rend="capital">S</hi>e<hi rend="capital">R</hi>mo ſu<choice><abbr>ꝑ</abbr><expan>per</expan></choice> ſepulchrum.</title>
+						<app>
+							<rdg>
+								<hi rend="2 capital rubricated" place="left margin">L</hi><hi rend="strikethrough">atıatuc</hi> feleym ʒumtuchel <title xml:lang="lat" rend="rubricated"><hi rend="capital">S</hi>e<hi rend="small capital">ʀ</hi>mo ſu<choice><abbr>ꝑ</abbr><expan>per</expan></choice> ſepulchrum.</title>
+							</rdg>
+						</app>
 						<lb n="2"/>mıc vogmuc. ýſa pur eſ chomuv uogmuc. <hi rend="capital rubricated">M</hi>enýı mıloſtben
 						<lb n="3"/>terumteve eleve mív ıſemucut adamut. eſ odutta vola nekı
 						<lb n="4"/>paradıſumut haʒóá. <hi rend="capital rubricated">E</hi>ſ mend paradıſumben uolov gımılcíctul
