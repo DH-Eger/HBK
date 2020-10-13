@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="" type="text/xsl"?>
 <!DOCTYPE TEI SYSTEM "../hbk/tei_all.dtd">
+<?xml-model href="../hbk//tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader xml:lang="hu">
 		<fileDesc>
@@ -36,11 +37,11 @@
 			</editionStmt>
 			<publicationStmt>
 				<publisher><!-- hogy mi a kiadó, ráérünk megbeszélni, most egy illusztráció erre :) -->
-					<orgName ref="">Eötvös Loránd Tudományegyetem</orgName>
-					<orgName ref="">Eszterházy Károly Egyetem</orgName>
+					<orgName>Eötvös Loránd Tudományegyetem</orgName>
+					<orgName>Eszterházy Károly Egyetem</orgName>
 				</publisher>
 				<pubPlace ref="http://www.geonames.org/3054643">Budapest</pubPlace>
-				<pubPlace ref="">Eger</pubPlace>
+				<pubPlace>Eger</pubPlace>
 				<date when-iso="2018">2018</date>
 				<availability>
 					<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
@@ -54,9 +55,8 @@
 				<msDesc>
 					<msIdentifier>
 						<country ref="http://www.geonames.org/719819/">Magyarország</country>
-						<country ref="http://www.geonames.org/719819/" xml:lang="en">Hungary</country>
-						<settlement ref="">Budapest</settlement>
-						<institution ref="">Országos Széchényi Könyvtár</institution>
+						<settlement>Budapest</settlement>
+						<institution>Országos Széchényi Könyvtár</institution>
 						<idno>MNy 1</idno>
 						<msName>Pray-kódex</msName>
 						<msName xml:lang="en">Codex Pray</msName>
@@ -116,7 +116,7 @@
 			<body xml:lang="hu">
 				<div xml:id="beszéd">
 					<p>
-						<hi rend="2 capital rubricated" place="left margin">L</hi><hi rend="strikethrough">atıatuc</hi> feleym ʒumtuchel <title xml:lang="lat" rend="rubricated"><hi rend="capital">S</hi>e<hi rend="small capital">ʀ</hi>mo ſu<choice><abbr>ꝑ</abbr><expan>per</expan></choice> ſepulchrum.</title>
+						<hi rend="2 capital rubricated left-margin">L</hi><hi rend="strikethrough">atıatuc</hi> feleym ʒumtuchel <title xml:lang="lat" rend="rubricated"><hi rend="capital">S</hi>e<hi rend="small capital">ʀ</hi>mo ſu<choice><abbr>ꝑ</abbr><expan>per</expan></choice> ſepulchrum.</title>
 						<lb n="2"/>mıc vogmuc. ýſa pur eſ chomuv uogmuc. <hi rend="capital rubricated">M</hi>enýı mıloſtben
 						<lb n="3"/>terumteve eleve mív ıſemucut adamut. eſ odutta vola nekı
 						<lb n="4"/>paradıſumut haʒóá. <hi rend="capital rubricated">E</hi>ſ mend paradıſumben uolov gımılcíctul
@@ -126,14 +126,14 @@
 						<lb n="8"/>tvl. ge feledeve. <hi rend="capital rubricated">E</hi>ngede urdung ıntetvınec. eſ evec oʒ tıluvt
 						<lb n="9"/>gımılſtvvl. eſ oʒ gımılſben halalut evec. <hi rend="capital rubricated">E</hi>ſ oʒ gımılſnec vvl
 						<lb n="10"/>keſeruv uola vıʒe. hug turchucat mıge ʒocoʒtıa vola.
-						<lb n="11"/><hi rend="capital rubricated" place="left margin">N</hi>um heon muga nec. ge mend vv foıanec halalut evec.
-						<lb n="12"/><hi rend="capital rubricated" place="left margin">H</hi>oroguvec ıſten. eſ veteve vvt eʒ muncaſ vılag bele. eſ levn
+						<lb n="11"/><hi rend="capital rubricated left-margin">N</hi>um heon muga nec. ge mend vv foıanec halalut evec.
+						<lb n="12"/><hi rend="capital rubricated left-margin">H</hi>oroguvec ıſten. eſ veteve vvt eʒ muncaſ vılag bele. eſ levn
 						<lb n="13"/>halalnec eſ puculnec feʒe. eſ mend vv nemenec. <hi rend="capital rubricated">K</hi>ıc oʒvc.
 						<lb n="14"/>mıv vogmuc. <hi rend="capital rubricated">H</hi>ug eſ tıv latıatuc ſʒumtuchel. ıſa eſ num
 						<lb n="15"/>ıgg ember mulchotıa eʒ vermut. yſa mend oʒchuʒ ıarov
 						<lb n="16"/>vogmuc. <hi rend="capital rubricated">W</hi>ímagguc uromc ıſten kegılmet eʒ lelıc ert. hug
 						<lb n="17"/>ıorgoſſun vv nekı. eſ kegıggen. eſ bulſcaſſa mend vv bunet.
-						<lb n="18"/><hi rend="capital rubricated" place="left margin">E</hi>ſ vımagguc ſʒen achſcın marıat. e!eſ bovdug mıchael archangelt.
+						<lb n="18"/><hi rend="capital rubricated left-margin">E</hi>ſ vımagguc ſʒen achſcın marıat. e!eſ bovdug mıchael archangelt.
 						<lb n="19"/>eſ mend angelcut. hug uımaggonoc erette. <hi rend="capital rubricated">E</hi>ſ uımagguc
 						<lb n="20"/>ſʒent peter urot. kınec odut hotolm ovdonıa. eſ ketnıe.
 						<lb n="21"/>hug ovga mend vv bunet. <hi rend="capital rubricated">E</hi>ſ vımagguc mend ſʒentucut.

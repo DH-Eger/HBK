@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="" type="text/xsl"?>
 <!DOCTYPE TEI SYSTEM "../hbk/tei_all.dtd">
+<?xml-model href="../hbk//tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader xml:lang="hu">
 		<fileDesc>

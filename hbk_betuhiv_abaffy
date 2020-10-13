@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="" type="text/xsl"?>
 <!DOCTYPE TEI SYSTEM "../hbk/tei_all.dtd">
+<?xml-model href="../hbk//tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader xml:lang="hu">
 		<fileDesc>
@@ -36,11 +37,11 @@
 			</editionStmt>
 			<publicationStmt>
 				<publisher><!-- hogy mi a kiadó, ráérünk megbeszélni, most egy illusztráció erre :) -->
-					<orgName ref="">Eötvös Loránd Tudományegyetem</orgName>
-					<orgName ref="">Eszterházy Károly Egyetem</orgName>
+					<orgName>Eötvös Loránd Tudományegyetem</orgName>
+					<orgName>Eszterházy Károly Egyetem</orgName>
 				</publisher>
 				<pubPlace ref="http://www.geonames.org/3054643">Budapest</pubPlace>
-				<pubPlace ref="">Eger</pubPlace>
+				<pubPlace>Eger</pubPlace>
 				<date when-iso="2020">2020</date>
 				<availability>
 					<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
@@ -54,9 +55,8 @@
 				<msDesc>
 					<msIdentifier>
 						<country ref="http://www.geonames.org/719819/">Magyarország</country>
-						<country ref="http://www.geonames.org/719819/" xml:lang="en">Hungary</country>
-						<settlement ref="">Budapest</settlement>
-						<institution ref="">Országos Széchényi Könyvtár</institution>
+						<settlement>Budapest</settlement>
+						<institution>Országos Széchényi Könyvtár</institution>
 						<idno>MNy 1</idno>
 						<msName>Pray-kódex</msName>
 						<msName xml:lang="en">Codex Pray</msName>
